@@ -1,24 +1,24 @@
 # dak2.com
 
-個人サイト。ブログ・スクラップ・読書感想・経歴・SNS リンクを雑多にまとめる。
+Personal site. A collection of blog posts, scraps, reading notes, career history, and SNS links.
 
-## 設計メモ
+## Design notes
 
-- **フレームワーク**: Next.js
-- **テーマ**: [tailwind-nextjs-starter-blog](https://github.com/timlrx/tailwind-nextjs-starter-blog) をベースに拡張予定
-- **ホスティング**: Vercel（Hobby プラン、無料）
-- **ドメイン**: dak2.com
+- **Framework**: Next.js
+- **Theme**: Built on top of [tailwind-nextjs-starter-blog](https://github.com/timlrx/tailwind-nextjs-starter-blog)
+- **Hosting**: Vercel (Hobby plan, free)
+- **Domain**: dak2.com
 
-## コンテンツ構成（URL 分離方式）
+## Content layout (URL-separated)
 
-- `/blog/*` — ブログ記事
-- `/scraps/*` — 思考の断片
-- `/reviews/*` — 記事を読んだ感想
-- `/about` — 経歴・SNS リンク
+- `/blog/*` — Blog posts
+- `/scraps/*` — Fragments of thought
+- `/reviews/*` — Notes on articles I've read
+- `/about` — Career history and SNS links
 
 ## TODO
 
-- [ ] テンプレートのクローンとセットアップ
-- [ ] 3 collection（blog / scraps / reviews）のスキーマ定義
-- [ ] About ページの作成
-- [ ] Vercel デプロイとドメイン接続
+- [ ] Clone the template and set it up
+- [ ] Define schemas for the three collections (blog / scraps / reviews)
+- [ ] Build the About page
+- [ ] Deploy to Vercel and connect the domain
