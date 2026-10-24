@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "source": {
+    "name": "dak2-blog",
+    "routes": [
+      {
+        "pattern": "dak2.com",
+        "custom_domain": true
+      },
+      {
+        "pattern": "www.dak2.com",
+        "custom_domain": true
+      }
+    ]
+  },
+  "resolved": {
+    "name": "dak2-blog",
+    "routes": [
+      {
+        "pattern": "dak2.com",
+        "custom_domain": true
+      },
+      {
+        "pattern": "www.dak2.com",
+        "custom_domain": true
+      }
+    ],
+    "account_id": "c8f4145eb7a36dbc08f417b036d032bd"
+  },
+  "text": "{\n  \"name\": \"dak2-blog\",\n  \"routes\": [\n    {\n      \"pattern\": \"dak2.com\",\n      \"custom_domain\": true\n    },\n    {\n      \"pattern\": \"www.dak2.com\",\n      \"custom_domain\": true\n    }\n  ],\n  \"account_id\": \"c8f4145eb7a36dbc08f417b036d032bd\"\n}\n"
+}

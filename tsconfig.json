@@ -1,0 +1,14 @@
+{
+  "extends": "./.void/tsconfig.json",
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "strict": true,
+    "noEmit": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "types": ["void/env", "vite/client", "node"]
+  },
+  "include": ["src", "routes", "build", "vite.config.ts", "void.config.ts", ".void/routes.d.ts"]
+}

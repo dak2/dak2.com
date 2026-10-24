@@ -1,24 +1,29 @@
 # dak2.com
 
-Personal site. A collection of blog posts, scraps, reading notes, career history, and SNS links.
+Personal site built with Vite + [Void](https://void.cloud), running on Cloudflare Workers.
 
-## Design notes
+Requires Node.js >= 24.21.
 
-- **Framework**: Next.js
-- **Theme**: Built on top of [tailwind-nextjs-starter-blog](https://github.com/timlrx/tailwind-nextjs-starter-blog)
-- **Hosting**: Vercel (Hobby plan, free)
-- **Domain**: dak2.com
+```sh
+npm install
+npm run dev      # fetch OGP, start dev server
+npm run deploy   # fetch OGP, build, deploy to Cloudflare
+```
 
-## Content layout (URL-separated)
+## Content
 
-- `/blog/*` — Blog posts
-- `/scraps/*` — Fragments of thought
-- `/reviews/*` — Notes on articles I've read
-- `/about` — Career history and SNS links
+| Section | Source |
+| --- | --- |
+| Profile | `content/profile.md` |
+| Posts | `content/posts/<slug>.md` |
+| Notes | `content/notes/<slug>.md` (scrap-style: split comments with `@YYYY-MM-DD HH:MM` lines, `closed: true` to close) |
+| Slides | `content/slides.json` |
 
-## TODO
+Posts and Notes take frontmatter (`title`, `date`, `description`, `image`). A line containing only a URL becomes a link card, or an embed for X posts. Refresh OGP data with `npm run ogp:refresh`.
 
-- [ ] Clone the template and set it up
-- [ ] Define schemas for the three collections (blog / scraps / reviews)
-- [ ] Build the About page
-- [ ] Deploy to Vercel and connect the domain
+## Deploy
+
+Pushing to `main` runs `.github/workflows/void-deploy.yml`.
+
+1. Run `npm run deploy` once locally and commit `void.lock.json`.
+2. Add the `CLOUDFLARE_API_TOKEN` repository secret (Workers Scripts: Edit). Add `CLOUDFLARE_ACCOUNT_ID` too if the token covers multiple accounts.

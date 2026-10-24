@@ -1,0 +1,293 @@
+{
+  "https://agilemanifesto.org/iso/ja/manifesto.html": {
+    "title": "アジャイルソフトウェア開発宣言"
+  },
+  "https://amzn.asia/d/74EZUFK": {
+    "title": "Amazon.co.jp: パタン・ランゲージ―環境設計の手引 : クリストファー・アレグザンダー, 平田 翰那: 本",
+    "description": "Amazon.co.jp: パタン・ランゲージ―環境設計の手引 : クリストファー・アレグザンダー, 平田 翰那: 本"
+  },
+  "https://anchor.fm/textafm/episodes/2--The-Power-of-Constraints-ejufu0": {
+    "title": "2. The Power of Constraints by texta.fm",
+    "description": "技術顧問の和田卓人さんと、Value Object、Immutability、契約による設計、バリデーションなどについて話しました。\nShow Notes:\n\n ピクスタ技術ブログ「てくすた」\n パーフェクトRuby on Rails【増補改訂版】\n  ValueObject\n  ActiveRecord::Aggregations::ClassMethods\n  テスト駆動開発（Kent Beck 著、和田 卓人 訳）\n  Functional programming\n  世代別ガベージコレクション\n  Understanding Clojure's Persistent Vectors, pt. 1\n  過去を知り、未来に備える。技術選定の審美眼 2019 edition\n  Design by contract\n  PHP7 で堅牢なコードを書く - 例外処理、表明プログラミング、契約による設計\n  オブジェクト指向入門 第2版 原則・コンセプト\n  unassert-js/unassert\n  Fail-fast\n  Defensive programming\n  「かもしれない運転」とは？「だろう運転」がおこす動静不注視の事故\n  SelfEncapsulation\n  Ruby on Railsの正体と向き合い方\n  コペルニクス的転回\n  ゴルディアスの結び目",
+    "image": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_nologo400/8463314/8463314-1598489534691-3b3d7a8d69d8c.jpg",
+    "siteName": "Spotify for Creators"
+  },
+  "https://dev.37signals.com/vanilla-rails-is-plenty/": {
+    "title": "Vanilla Rails is plenty",
+    "description": "A common critique of Rails is that it encourages a poor separation of concerns. That when things get serious, you need an alternative that brings the missing pieces. We disagree.",
+    "image": "https://dev.37signals.com/assets/images/opengraph/vanilla-rails-is-plenty.png",
+    "siteName": "37signals Dev"
+  },
+  "https://dev.mysql.com/doc/refman/8.0/ja/innodb-locking.html#innodb-gap-locks": {
+    "title": "MySQL :: MySQL 8.0 リファレンスマニュアル :: 15.7.1 InnoDB ロック"
+  },
+  "https://dev.mysql.com/doc/refman/8.0/ja/innodb-locking.html#innodb-next-key-locks": {
+    "title": "MySQL :: MySQL 8.0 リファレンスマニュアル :: 15.7.1 InnoDB ロック"
+  },
+  "https://dev.mysql.com/doc/refman/8.0/ja/mysql-nutshell.html": {
+    "title": "MySQL :: MySQL 8.0 リファレンスマニュアル :: 1.3 MySQL 8.0 の新機能"
+  },
+  "https://dev.mysql.com/doc/refman/8.0/ja/upgrading-from-previous-series.html": {
+    "title": "MySQL :: MySQL 8.0 リファレンスマニュアル :: 2.11.4 MySQL 8.0 での変更"
+  },
+  "https://docs.aws.amazon.com/ja_jp/AmazonRDS/latest/AuroraUserGuide/AuroraMySQL.MySQL80.html": {
+    "title": "Aurora MySQL バージョン 3 は MYSQL 8.0 との互換性があります。 - Amazon Aurora",
+    "description": "Aurora バージョン 3 の MySQL 8.0 機能のサポートについて説明します。"
+  },
+  "https://docs.aws.amazon.com/ja_jp/AmazonRDS/latest/AuroraUserGuide/blue-green-deployments-overview.html#blue-green-deployments-limitations-general": {
+    "title": "Amazon Aurora ブルー/グリーンデプロイの概要 - Amazon Aurora",
+    "description": "Amazon RDS ブルー/グリーンデプロイに関連する概念について説明します。"
+  },
+  "https://docs.aws.amazon.com/ja_jp/vpc/latest/peering/what-is-vpc-peering.html": {
+    "title": "VPC ピア機能とは - Amazon Virtual Private Cloud",
+    "description": "VPC ピアリング接続の目的を理解する。 VPC ピアリングを使用して、2 つの VPC 間のトラフィックをルーティングします。"
+  },
+  "https://docs.github.com/en/actions/deployment/deploying-to-your-cloud-provider/deploying-to-amazon-elastic-container-service#prerequisites": {
+    "title": "Deploying to Amazon Elastic Container Service - GitHub Docs",
+    "description": "Learn how to deploy a project to Amazon Elastic Container Service (ECS) as part of a continuous deployment (CD) workflow.",
+    "image": "https://docs.github.com/assets/cb-345/images/social-cards/actions.png",
+    "siteName": "GitHub Docs"
+  },
+  "https://docs.google.com/spreadsheets/d/1i9IMedBrNQ6J_wY9Gz0YO_2FCaaMB3wlouBTnQqUih0/edit": {
+    "title": "KaigionRails2025紹介候補書籍リスト",
+    "image": "https://lh7-us.googleusercontent.com/docs/AHkbwyK09EfBJ0VjCioVFNW8VT091lbFOliyOWvSt16ozMUTHg-JuQOopY7Is6nNFGcvHzSAcXA3AAz6Kz4AKe-VjqKHmcd8AypaooMRSEBL8-4m-00t_JA=w1200-h630-p",
+    "siteName": "Google Docs"
+  },
+  "https://github.com/dak2/kdevlog": {
+    "title": "GitHub - dak2/kdevlog: This is my blog",
+    "description": "This is my blog. Contribute to dak2/kdevlog development by creating an account on GitHub.",
+    "image": "https://opengraph.githubassets.com/f14180e15f376a18968753b9dee17432eb5205150da83ee440694a8b8114110e/dak2/kdevlog",
+    "siteName": "GitHub"
+  },
+  "https://github.com/ioquatix/agent-context": {
+    "title": "GitHub - socketry/agent-context: A framework for Ruby Gems to expose LLM context.",
+    "description": "A framework for Ruby Gems to expose LLM context. Contribute to socketry/agent-context development by creating an account on GitHub.",
+    "image": "https://opengraph.githubassets.com/57d621121d2aa8c96d71cd030531b1572ce359803a7c1f7caa386b479fbabc13/socketry/agent-context",
+    "siteName": "GitHub"
+  },
+  "https://github.com/ivoanjo/lowlevel-toolkit": {
+    "title": "GitHub - ivoanjo/lowlevel-toolkit: Ruby gem for calling observability APIs",
+    "description": "Ruby gem for calling observability APIs. Contribute to ivoanjo/lowlevel-toolkit development by creating an account on GitHub.",
+    "image": "https://opengraph.githubassets.com/c2015b0adb62b541ffa8e7315e31366dbf8cbe2c5f3b9cf436480ce72e5907e5/ivoanjo/lowlevel-toolkit",
+    "siteName": "GitHub"
+  },
+  "https://github.com/torokmark/design_patterns_in_typescript/blob/main/bridge/bridge.ts": {
+    "title": "design_patterns_in_typescript/bridge/bridge.ts at main · torokmark/design_patterns_in_typescript",
+    "description": ":triangular_ruler: Design pattern implementations in TypeScript - torokmark/design_patterns_in_typescript",
+    "image": "https://opengraph.githubassets.com/9aff007af72a31234aab3efc26f5dfeeeb45952d5112590c4bcd6d69f67dfacc/torokmark/design_patterns_in_typescript",
+    "siteName": "GitHub"
+  },
+  "https://github.com/torokmark/design_patterns_in_typescript/tree/main/abstract_factory": {
+    "title": "design_patterns_in_typescript/abstract_factory at main · torokmark/design_patterns_in_typescript",
+    "description": ":triangular_ruler: Design pattern implementations in TypeScript - torokmark/design_patterns_in_typescript",
+    "image": "https://opengraph.githubassets.com/9aff007af72a31234aab3efc26f5dfeeeb45952d5112590c4bcd6d69f67dfacc/torokmark/design_patterns_in_typescript",
+    "siteName": "GitHub"
+  },
+  "https://github.com/torokmark/design_patterns_in_typescript/tree/main/prototype": {
+    "title": "design_patterns_in_typescript/prototype at main · torokmark/design_patterns_in_typescript",
+    "description": ":triangular_ruler: Design pattern implementations in TypeScript - torokmark/design_patterns_in_typescript",
+    "image": "https://opengraph.githubassets.com/9aff007af72a31234aab3efc26f5dfeeeb45952d5112590c4bcd6d69f67dfacc/torokmark/design_patterns_in_typescript",
+    "siteName": "GitHub"
+  },
+  "https://github.com/torokmark/design_patterns_in_typescript/tree/main/singleton": {
+    "title": "design_patterns_in_typescript/singleton at main · torokmark/design_patterns_in_typescript",
+    "description": ":triangular_ruler: Design pattern implementations in TypeScript - torokmark/design_patterns_in_typescript",
+    "image": "https://opengraph.githubassets.com/9aff007af72a31234aab3efc26f5dfeeeb45952d5112590c4bcd6d69f67dfacc/torokmark/design_patterns_in_typescript",
+    "siteName": "GitHub"
+  },
+  "https://github.com/torokmark/design_patterns_in_typescript/tree/main/strategy": {
+    "title": "design_patterns_in_typescript/strategy at main · torokmark/design_patterns_in_typescript",
+    "description": ":triangular_ruler: Design pattern implementations in TypeScript - torokmark/design_patterns_in_typescript",
+    "image": "https://opengraph.githubassets.com/9aff007af72a31234aab3efc26f5dfeeeb45952d5112590c4bcd6d69f67dfacc/torokmark/design_patterns_in_typescript",
+    "siteName": "GitHub"
+  },
+  "https://github.com/vtaits/react-select-async-paginate/blob/52f2e2f0fe99f57bb8536b202ecda409a558b9a5/src/index.jsx": {
+    "title": "react-select-async-paginate/src/index.jsx at 52f2e2f0fe99f57bb8536b202ecda409a558b9a5 · vtaits/react-select-async-paginate",
+    "description": "Wrapper above react-select that supports pagination on menu scroll - vtaits/react-select-async-paginate",
+    "image": "https://opengraph.githubassets.com/c62a20c910284934e47ca84cc75e449ab714c6b22f0ba6fc6f5df67bab0348b8/vtaits/react-select-async-paginate",
+    "siteName": "GitHub"
+  },
+  "https://guides.rubyonrails.org/association_basics.html#polymorphic-associations": {
+    "title": "Active Record Associations — Ruby on Rails Guides",
+    "description": "This guide covers the association features of Active Record.After reading this guide, you will know how to: Understand the various types of associations. Declare associations between Active Record models. Choose the right association type for your models. Use Single Table Inheritance. Setting up and using Delegated Types.",
+    "image": "https://avatars.githubusercontent.com/u/4223",
+    "siteName": "Ruby on Rails Guides"
+  },
+  "https://ja.wikipedia.org/wiki/%E3%83%87%E3%83%A1%E3%83%86%E3%83%AB%E3%81%AE%E6%B3%95%E5%89%87": {
+    "title": "デメテルの法則 - Wikipedia"
+  },
+  "https://kaigionrails.org/2025/": {
+    "title": "Kaigi on Rails 2025",
+    "description": "Kaigi on Rails 2025 9.26 (Fri.) - 27 (Sat.) Hybrid event(online & offline)",
+    "image": "https://kaigionrails.org/2025/images/opengraph.png",
+    "siteName": "Kaigi on Rails 2025"
+  },
+  "https://kaigionrails.org/2025/talks/umeda-rizap/#day2": {
+    "title": "Range on Rails ― 「多重範囲型」という新たな選択肢が、複雑ロジックを劇的にシンプルにしたワケ / 梅田智大 | Kaigi on Rails 2025",
+    "description": "Kaigi on Rails 2025 9.26 (Fri.) - 27 (Sat.) Hybrid event(online & offline)",
+    "image": "https://kaigionrails.org/2025/images/talks/og-342f1d5d85036650207dd5100d8cdbfceaca12d8ddf04cd5f503df30252d7282.png",
+    "siteName": "Kaigi on Rails 2025"
+  },
+  "https://kichijoji.p2b.haus/": {
+    "title": "吉祥寺のクラフトビールならP2B Haus (ピーツービーハウス) | 冬限定「おでんとクラフトビール」",
+    "description": "P2B Haus (ピーツービーハウス)は吉祥寺東急裏のクラフトビールレストランです。国内の定番クラフトビールからマイクロブルワリーの希少な限定ビール国外の有名ブルワリーまで多種多様なビールを12タップ取り揃えています。「クラフトビールを愛する方」も「興味はあるけど詳しくなくて...」という方も、もちろんお子さま連れやノンアルコールの方まで楽しく、幸せなひとときを過ごせるような、最高のビールとお料理をご用意しています。冬は「おでんとクラフトビール」のマリアージュを楽しめます♪",
+    "image": "https://kichijoji.p2b.haus/images/og-image.jpg"
+  },
+  "https://kichijojipm.connpass.com/event/361631/": {
+    "title": "大吉祥寺.pm 2025 (2025/09/06 10:00〜)",
+    "description": "### 参加登録にあたっての注意事項    * 登壇者、コアスタッフ、スポンサー、当日ボランティアスタッフは、本ページからの登録は不要です   * 当日ボランティアスタッフは、募集用の別イベントを用意していますので、そちらからエントリ下さい（連絡先の記入が必要なので、別イベントになっています）  ### 今年も大吉祥寺.pmを開催します！  昨年、たくさんの方に参加頂いた、大吉祥寺.pmが帰ってきます！  今年も武蔵野公会堂ホールで、最高のトーク・LTを聞いて、みんなと交流しましょう！  ### 吉祥寺.pmとは?  「吉祥寺.pm」は、当初Perlのイベントとして始まりましたが、次第に...",
+    "image": "https://media.connpass.com/thumbs/cf/ec/cfec54eb780e256b72b6dce8d688d66c.png",
+    "siteName": "connpass"
+  },
+  "https://qiita.com/joker1007/items/25de535cd8bb2857a685": {
+    "title": "俺が悪かった。素直に間違いを認めるから、もうサービスクラスとか作るのは止めてくれ - Qiita",
+    "description": "ちなみに、最初に結論だけ言っておくと、まずSandi Metzの「オブジェクト指向設計実践ガイド」を読め、という話です それだけで終わってしまいたい気持ちはあるが、不親切過ぎるしもうちょっとRails向けの話を書こうと思う。 ただ言いたいことは、よく分かってないのに使うのは...",
+    "image": "https://qiita-user-contents.imgix.net/https%3A%2F%2Fqiita-user-contents.imgix.net%2Fhttps%253A%252F%252Fcdn.qiita.com%252Fassets%252Fpublic%252Fadvent-calendar-ogp-background-7940cd1c8db80a7ec40711d90f43539e.jpg%3Fixlib%3Drb-4.1.1%26w%3D1200%26blend64%3DaHR0cHM6Ly9xaWl0YS11c2VyLXByb2ZpbGUtaW1hZ2VzLmltZ2l4Lm5ldC9odHRwcyUzQSUyRiUyRnFpaXRhLWltYWdlLXN0b3JlLnMzLmFtYXpvbmF3cy5jb20lMkYwJTJGNzglMkZwcm9maWxlLWltYWdlcyUyRjE0NzM2ODM3ODU_aXhsaWI9cmItNC4xLjEmYXI9MSUzQTEmZml0PWNyb3AmbWFzaz1lbGxpcHNlJmJnPUZGRkZGRiZmbT1wbmczMiZzPWExN2NjOGVhODg4MDdiOWE0ZTIyMzg3ZDE0ZDRlOTNh%26blend-x%3D120%26blend-y%3D462%26blend-w%3D90%26blend-h%3D90%26blend-mode%3Dnormal%26mark64%3DaHR0cHM6Ly9xaWl0YS1vcmdhbml6YXRpb24taW1hZ2VzLmltZ2l4Lm5ldC9odHRwcyUzQSUyRiUyRnMzLWFwLW5vcnRoZWFzdC0xLmFtYXpvbmF3cy5jb20lMkZxaWl0YS1vcmdhbml6YXRpb24taW1hZ2UlMkZhMzgzYzJlOTA1NDExZDdlOWZmNTVkOGQwZmYzZDI4N2VmMDdkZDcwJTJGb3JpZ2luYWwuanBnJTNGMTQ0MzYyOTU1MD9peGxpYj1yYi00LjEuMSZ3PTQ0Jmg9NDQmZml0PWNyb3AmbWFzaz1jb3JuZXJzJmNvcm5lci1yYWRpdXM9OCZiZz1GRkZGRkYmYm9yZGVyPTIlMkNGRkZGRkYmZm09cG5nMzImcz1lOGVkYjIwY2E3MWY4ZGI3OGIwZjEwNDliNDcyNTQ1Nw%26mark-x%3D186%26mark-y%3D515%26mark-w%3D40%26mark-h%3D40%26s%3D67f003c9c93a9a759f62df3c0563d35f?ixlib=rb-4.1.1&w=1200&fm=jpg&mark64=aHR0cHM6Ly9xaWl0YS11c2VyLWNvbnRlbnRzLmltZ2l4Lm5ldC9-dGV4dD9peGxpYj1yYi00LjEuMSZ3PTk2MCZoPTMyNCZ0eHQ9JUU0JUJGJUJBJUUzJTgxJThDJUU2JTgyJUFBJUUzJTgxJThCJUUzJTgxJUEzJUUzJTgxJTlGJUUzJTgwJTgyJUU3JUI0JUEwJUU3JTlCJUI0JUUzJTgxJUFCJUU5JTk2JTkzJUU5JTgxJTk1JUUzJTgxJTg0JUUzJTgyJTkyJUU4JUFBJThEJUUzJTgyJTgxJUUzJTgyJThCJUUzJTgxJThCJUUzJTgyJTg5JUUzJTgwJTgxJUUzJTgyJTgyJUUzJTgxJTg2JUUzJTgyJUI1JUUzJTgzJUJDJUUzJTgzJTkzJUUzJTgyJUI5JUUzJTgyJUFGJUUzJTgzJUE5JUUzJTgyJUI5JUUzJTgxJUE4JUUzJTgxJThCJUU0JUJEJTlDJUUzJTgyJThCJUUzJTgxJUFFJUUzJTgxJUFGJUU2JUFEJUEyJUUzJTgyJTgxJUUzJTgxJUE2JUUzJTgxJThGJUUzJTgyJThDJnR4dC1hbGlnbj1sZWZ0JTJDdG9wJnR4dC1jb2xvcj0lMjMzQTNDM0MmdHh0LWZvbnQ9SGlyYWdpbm8lMjBTYW5zJTIwVzYmdHh0LXNpemU9NTYmdHh0LXBhZD0wJnM9NGUyNDgyNDI3M2ZiZTdlMzhhMzBiNTczYzJhYjY5MTY&mark-x=120&mark-y=112&blend64=aHR0cHM6Ly9xaWl0YS11c2VyLWNvbnRlbnRzLmltZ2l4Lm5ldC9-dGV4dD9peGxpYj1yYi00LjEuMSZ3PTgzOCZoPTU4JnR4dD0lNDBqb2tlcjEwMDcmdHh0LWNvbG9yPSUyMzNBM0MzQyZ0eHQtZm9udD1IaXJhZ2lubyUyMFNhbnMlMjBXNiZ0eHQtc2l6ZT0zNiZ0eHQtcGFkPTAmcz04M2I0MTFmMWY2Y2IzYWMwZWQxZmIwYTA3OTYyODY4Zg&blend-x=242&blend-y=454&blend-w=838&blend-h=46&blend-fit=crop&blend-crop=left%2Cbottom&blend-mode=normal&txt64=UmVwcm_moKrlvI_kvJrnpL4&txt-x=242&txt-y=539&txt-width=838&txt-clip=end%2Cellipsis&txt-color=%233A3C3C&txt-font=Hiragino%20Sans%20W6&txt-size=28&s=c801655d7b18bc4f5ec2ab366634f18e",
+    "siteName": "Qiita"
+  },
+  "https://qiita.com/TakeshiFukushima/items/0b16aef3d320a2ccb7c3#%E8%A8%AD%E8%A8%88%E5%8E%9F%E5%89%87%E3%81%8C%E5%AE%88%E3%82%8C%E3%81%A6%E3%81%84%E3%82%8B%E4%BE%8B": {
+    "title": "コードを複雑化させないために意識したいパターン集  - Qiita",
+    "description": "はじめに はじめはシンプルだったコードも積み重なる機能追加や変更、バグ修正等などによって、徐々にコードが複雑化し、修正コストの増加や品質低下に繋がります。 これはある程度の規模を持つプロダクトでは至って自然なことであり、そうならないようにするためには意識して設計しなければ...",
+    "image": "https://qiita-user-contents.imgix.net/https%3A%2F%2Fqiita-user-contents.imgix.net%2Fhttps%253A%252F%252Fcdn.qiita.com%252Fassets%252Fpublic%252Farticle-ogp-background-afbab5eb44e0b055cce1258705637a91.png%3Fixlib%3Drb-4.1.1%26w%3D1200%26blend64%3DaHR0cHM6Ly9xaWl0YS11c2VyLXByb2ZpbGUtaW1hZ2VzLmltZ2l4Lm5ldC9odHRwcyUzQSUyRiUyRnMzLWFwLW5vcnRoZWFzdC0xLmFtYXpvbmF3cy5jb20lMkZxaWl0YS1pbWFnZS1zdG9yZSUyRjAlMkYxMzk5MzMlMkYzMjdiM2FhNzg4ZDBjNDA4ZjZlZjM1NWUzZDQ4YjRhOTY5MDFlYTA4JTJGbGFyZ2UucG5nJTNGMTc1MTI2ODMzMz9peGxpYj1yYi00LjEuMSZhcj0xJTNBMSZmaXQ9Y3JvcCZtYXNrPWVsbGlwc2UmYmc9RkZGRkZGJmZtPXBuZzMyJnM9ZjBhYmYzMDMyMWRjYzZjYzhlYjY0MGJmMDU1Y2FmMWQ%26blend-x%3D120%26blend-y%3D467%26blend-w%3D82%26blend-h%3D82%26blend-mode%3Dnormal%26s%3Ddcd583d94b6e50db5097cc59a5255d35?ixlib=rb-4.1.1&w=1200&fm=jpg&mark64=aHR0cHM6Ly9xaWl0YS11c2VyLWNvbnRlbnRzLmltZ2l4Lm5ldC9-dGV4dD9peGxpYj1yYi00LjEuMSZ3PTk2MCZoPTMyNCZ0eHQ9JUUzJTgyJUIzJUUzJTgzJUJDJUUzJTgzJTg5JUUzJTgyJTkyJUU4JUE0JTg3JUU5JTlCJTkxJUU1JThDJTk2JUUzJTgxJTk1JUUzJTgxJTlCJUUzJTgxJUFBJUUzJTgxJTg0JUUzJTgxJTlGJUUzJTgyJTgxJUUzJTgxJUFCJUU2JTg0JThGJUU4JUFEJTk4JUUzJTgxJTk3JUUzJTgxJTlGJUUzJTgxJTg0JUUzJTgzJTkxJUUzJTgyJUJGJUUzJTgzJUJDJUUzJTgzJUIzJUU5JTlCJTg2JTIwJnR4dC1hbGlnbj1sZWZ0JTJDdG9wJnR4dC1jb2xvcj0lMjMxRTIxMjEmdHh0LWZvbnQ9SGlyYWdpbm8lMjBTYW5zJTIwVzYmdHh0LXNpemU9NTYmdHh0LXBhZD0wJnM9NGQ3OWZjNTIzY2JjZjliODViYTNlMGUxZTE4Y2NkOWE&mark-x=120&mark-y=112&blend64=aHR0cHM6Ly9xaWl0YS11c2VyLWNvbnRlbnRzLmltZ2l4Lm5ldC9-dGV4dD9peGxpYj1yYi00LjEuMSZ3PTgzOCZoPTU4JnR4dD0lNDBUYWtlc2hpRnVrdXNoaW1hJnR4dC1jb2xvcj0lMjMxRTIxMjEmdHh0LWZvbnQ9SGlyYWdpbm8lMjBTYW5zJTIwVzYmdHh0LXNpemU9MzYmdHh0LXBhZD0wJnM9M2FlNmQxYzQ0ZTFhOGY1OTYyNjRhMjllNjE0MGY2YTI&blend-x=242&blend-y=480&blend-w=838&blend-h=46&blend-fit=crop&blend-crop=left%2Cbottom&blend-mode=normal&s=d430e5b75ac378c90a78f38a56eb80db",
+    "siteName": "Qiita"
+  },
+  "https://qiita.com/yebihara/items/9ecb838893ad99be0561": {
+    "title": "みんなRailsのSTIを誤解してないか!? - Qiita",
+    "description": "この記事はfreee Engineers Advent Calendar 2016の4 日目です。 こんにちは、freeeでエンジニアをやっている @yebihara です。 今日はRailsの単一テーブル継承/Single Table Inheritance(以下STI)...",
+    "image": "https://qiita-user-contents.imgix.net/https%3A%2F%2Fqiita-user-contents.imgix.net%2Fhttps%253A%252F%252Fcdn.qiita.com%252Fassets%252Fpublic%252Fadvent-calendar-ogp-background-7940cd1c8db80a7ec40711d90f43539e.jpg%3Fixlib%3Drb-4.1.1%26w%3D1200%26blend64%3DaHR0cHM6Ly9xaWl0YS11c2VyLXByb2ZpbGUtaW1hZ2VzLmltZ2l4Lm5ldC9odHRwcyUzQSUyRiUyRnFpaXRhLWltYWdlLXN0b3JlLnMzLmFwLW5vcnRoZWFzdC0xLmFtYXpvbmF3cy5jb20lMkYwJTJGMTk2ODMlMkZwcm9maWxlLWltYWdlcyUyRjE2MTczNzQxNzc_aXhsaWI9cmItNC4xLjEmYXI9MSUzQTEmZml0PWNyb3AmbWFzaz1lbGxpcHNlJmJnPUZGRkZGRiZmbT1wbmczMiZzPWUwOWY1MmIzNmYyM2Q4MmZjNjVlZDRiOTM4ZTI5Mzdl%26blend-x%3D120%26blend-y%3D462%26blend-w%3D90%26blend-h%3D90%26blend-mode%3Dnormal%26mark64%3DaHR0cHM6Ly9xaWl0YS1vcmdhbml6YXRpb24taW1hZ2VzLmltZ2l4Lm5ldC9odHRwcyUzQSUyRiUyRnMzLWFwLW5vcnRoZWFzdC0xLmFtYXpvbmF3cy5jb20lMkZxaWl0YS1vcmdhbml6YXRpb24taW1hZ2UlMkY2ZTJiYzBiNWJmZjA5ZWMxZmZiZmExOGVkMWNjZGMxN2IyYTAyY2MwJTJGb3JpZ2luYWwuanBnJTNGMTYyNDM0MjUwNz9peGxpYj1yYi00LjEuMSZ3PTQ0Jmg9NDQmZml0PWNyb3AmbWFzaz1jb3JuZXJzJmNvcm5lci1yYWRpdXM9OCZiZz1GRkZGRkYmYm9yZGVyPTIlMkNGRkZGRkYmZm09cG5nMzImcz1mMjZkNTJkZDQxMjA0YjFjZDNjYjU4Zjk2NmM5ZmUwMw%26mark-x%3D186%26mark-y%3D515%26mark-w%3D40%26mark-h%3D40%26s%3D57ba970da78a85c2ca9442288fe04b2f?ixlib=rb-4.1.1&w=1200&fm=jpg&mark64=aHR0cHM6Ly9xaWl0YS11c2VyLWNvbnRlbnRzLmltZ2l4Lm5ldC9-dGV4dD9peGxpYj1yYi00LjEuMSZ3PTk2MCZoPTMyNCZ0eHQ9JUUzJTgxJUJGJUUzJTgyJTkzJUUzJTgxJUFBUmFpbHMlRTMlODElQUVTVEklRTMlODIlOTIlRTglQUElQTQlRTglQTclQTMlRTMlODElOTclRTMlODElQTYlRTMlODElQUElRTMlODElODQlRTMlODElOEIlMjElM0YmdHh0LWFsaWduPWxlZnQlMkN0b3AmdHh0LWNvbG9yPSUyMzNBM0MzQyZ0eHQtZm9udD1IaXJhZ2lubyUyMFNhbnMlMjBXNiZ0eHQtc2l6ZT01NiZ0eHQtcGFkPTAmcz03YzMyMmUzM2UxNjMyNGY1MDFlNjkzMmNiOTU4NDhjZQ&mark-x=120&mark-y=112&blend64=aHR0cHM6Ly9xaWl0YS11c2VyLWNvbnRlbnRzLmltZ2l4Lm5ldC9-dGV4dD9peGxpYj1yYi00LjEuMSZ3PTgzOCZoPTU4JnR4dD0lNDB5ZWJpaGFyYSZ0eHQtY29sb3I9JTIzM0EzQzNDJnR4dC1mb250PUhpcmFnaW5vJTIwU2FucyUyMFc2JnR4dC1zaXplPTM2JnR4dC1wYWQ9MCZzPTRhZTIwOGYzN2Y0ZjllMjRkMzUzM2FjYmY4OTYzMmQ3&blend-x=242&blend-y=454&blend-w=838&blend-h=46&blend-fit=crop&blend-crop=left%2Cbottom&blend-mode=normal&txt64=ZnJlZWU&txt-x=242&txt-y=539&txt-width=838&txt-clip=end%2Cellipsis&txt-color=%233A3C3C&txt-font=Hiragino%20Sans%20W6&txt-size=28&s=18814f9ae2adaa0f9beefcd96720cc70",
+    "siteName": "Qiita"
+  },
+  "https://soudai.hatenablog.com/entry/postgresql-schedule-design": {
+    "title": "PostgreSQLで時間枠を適切に扱う設計 - そーだいなるらくがき帳",
+    "description": "はじめに Googleカレンダーのような時間枠を扱うシステムを設計する際、開始・終了時刻を管理するロジックは容易ではない。 しかし、PostgreSQLには 範囲型 があり、この機能を活用することで、開始時刻（begin_at）と終了時刻（end_at）を1つのカラムで扱えるようになる。 そこで本稿では、範囲型を用いた設計と、その利点を紹介する。 時間枠を扱う難しさ まず前提として時間枠の扱いがなぜ難しいかを紹介する。 ソフトウェアデザインでやっている連載、実戦データベースリファクタリングの 【12】厄介な時間枠に向き合う でも紹介したが、時間の範囲を比較するときが難しい。 範囲の重なりには以…",
+    "image": "https://ogimage.blog.st-hatena.com/10328749687203430916/6802418398310500273/1733817415",
+    "siteName": "そーだいなるらくがき帳"
+  },
+  "https://speakerdeck.com/dak2/no-types-needed-just-callable-method-check": {
+    "title": "No Types Needed,  Just Callable Method Check",
+    "description": "RubyKaigi2026 Day2 Sub Arena",
+    "image": "https://files.speakerdeck.com/presentations/48357192963446f593b8af6e8bfbdef1/slide_0.jpg?39188652",
+    "siteName": "Speaker Deck"
+  },
+  "https://speakerdeck.com/dak2/tokushu-hensuu-taizen": {
+    "title": "特殊変数大全",
+    "description": "名古屋Ruby会議05 の登壇資料\r\nhttps://regional.rubykaigi.org/nagoya05/sessions/dak2/",
+    "image": "https://files.speakerdeck.com/presentations/7f0db290f3bf4688af0d3db7c543b427/slide_0.jpg?40622060",
+    "siteName": "Speaker Deck"
+  },
+  "https://speakerdeck.com/dak2/toudan-sonogo-zjit-heno-kyoumi-to": {
+    "title": "登壇その後 - ZJIT への興味とハック",
+    "description": "2026/09/05 RubyKaigi 2026 Followup LT 資料\r\nhttps://rhc.connpass.com/event/392503/",
+    "image": "https://files.speakerdeck.com/presentations/782a1b7ac8244beb96d2be67a87888fb/slide_0.jpg?40471421",
+    "siteName": "Speaker Deck"
+  },
+  "https://speakerdeck.com/expajp/an-introduction-to-formobject": {
+    "title": "入門 FormObject / An Introduction to FormObject #kaigionrails",
+    "description": "2025/09/26のKaigi on Rails 2025（Day 1）にて発表したスライドです。\r\nhttps://kaigionrails.org/2025/talks/expajp\r\n\r\n2025/10/01：補足説明のブログ記事をアップしました\r\nhttps://expajp-tech.hat&hellip;",
+    "image": "https://files.speakerdeck.com/presentations/a8da84605a1041ba994fdb936860727e/slide_0.jpg?36727620",
+    "siteName": "Speaker Deck"
+  },
+  "https://speakerdeck.com/hypermkt/history-on-rails-with-bitemporal-data-model": {
+    "title": "履歴 on Rails:  Bitemporal Data Modelで実現する履歴管理/history-on-rails-with-bitemporal-data-model",
+    "description": "2025.09.27 Sat, Kaigi on Rails 2025@JP TOWER Hall & Conference",
+    "image": "https://files.speakerdeck.com/presentations/cc55b04ff2dd43de8fe5bbee95285f30/slide_0.jpg?36743055",
+    "siteName": "Speaker Deck"
+  },
+  "https://speakerdeck.com/igaiga/kaigionrails2024/": {
+    "title": "KaigiOnRails2024",
+    "description": "Railsの仕組みを理解してモデルを上手に育てる\r\n- モデルを見つける、モデルを分割する良いタイミング -",
+    "image": "https://files.speakerdeck.com/presentations/eea7a4e755784fa690362a48557c1802/slide_0.jpg?32323616",
+    "siteName": "Speaker Deck"
+  },
+  "https://speakerdeck.com/joker1007/jin-gai-meteservicekurasunituitekao-eru-arurailskai-fa-zhe-no10nian": {
+    "title": "今改めてServiceクラスについて考える 〜あるRails開発者の10年〜",
+    "description": "Kaigi on Rails 2025 登壇資料",
+    "image": "https://files.speakerdeck.com/presentations/0f561cf1842e43a4a2da9f15bac39712/slide_0.jpg?36729426",
+    "siteName": "Speaker Deck"
+  },
+  "https://speakerdeck.com/moro/dynamic": {
+    "title": "dynamic!",
+    "description": "Kaigi on Rails 2025のオープニングキーノートです。\r\n\r\nhttps://kaigionrails.org/2025/talks/moro/#day1",
+    "image": "https://files.speakerdeck.com/presentations/874d056d6766446aa591b2f0dba8e32c/slide_0.jpg?36723056",
+    "siteName": "Speaker Deck"
+  },
+  "https://speakerdeck.com/naro143/ji-shu-fu-zhai-ninaranaijian-wei-enai-quan-xian-guan-li-noshe-ji-toshi-zhuang": {
+    "title": "「技術負債にならない・間違えない」 権限管理の設計と実装",
+    "description": "Kaigi on Rails 2025 Day2\r\n\r\nhttps://kaigionrails.org/2025/talks/naro143/#day2",
+    "image": "https://files.speakerdeck.com/presentations/0a9cfbcea4664e8186d9dff828223326/slide_0.jpg?36744724",
+    "siteName": "Speaker Deck"
+  },
+  "https://speakerdeck.com/nay3/kaigi-on-rails-2025-she-ji": {
+    "title": "kaigi_on_rails_2025_設計.pdf",
+    "description": "Kaigi on Rails 2025で話した \"Railsによる人工的「設計」入門\" の資料です。",
+    "image": "https://files.speakerdeck.com/presentations/df882fbac1054fb4b6026fcefadf534e/slide_0.jpg?36730689",
+    "siteName": "Speaker Deck"
+  },
+  "https://speakerdeck.com/ohbarye/5-years-fintech-rails-retrospective": {
+    "title": "5年間のFintech × Rails実践に学ぶ - 基本に忠実な運用で築く高信頼性システム / 5 Years Fintech Rails Retrospective",
+    "description": "Kaigi on Rails 2025 \"5年間のFintech × Rails実践に学ぶ - 基本に忠実な運用で築く高信頼性システム\"\r\n\r\nhttps://kaigionrails.org/2025/talks/ohbarye/#day1",
+    "image": "https://files.speakerdeck.com/presentations/fda92b756ec141bfa774b3cec166389c/slide_0.jpg?36726873",
+    "siteName": "Speaker Deck"
+  },
+  "https://speakerdeck.com/ohbarye/my-favorite-protocol-idempotency-key-header": {
+    "title": "My Favorite Protocol: Idempotency-Key Header",
+    "description": "YAPC::Hiroshima 2024 \"My Favorite Protocol: Idempotency-Key Header\"\r\n\r\nhttps://fortee.jp/yapc-hiroshima-2024/proposal/c907c754-a4e5-4573-a14a-c8bb828e88&hellip;",
+    "image": "https://files.speakerdeck.com/presentations/fd67dc8e804649c2ad98ff96042551d3/slide_0.jpg?28886991",
+    "siteName": "Speaker Deck"
+  },
+  "https://speakerdeck.com/shoheimitani/double-request-handbook": {
+    "title": "2重リクエスト完全攻略HANDBOOK / Double Request Handbook",
+    "description": "Kaigi on Rails 2025",
+    "image": "https://files.speakerdeck.com/presentations/fe06eecd45f94e87a380bbbd16d92858/slide_0.jpg?36740358",
+    "siteName": "Speaker Deck"
+  },
+  "https://speakerdeck.com/takahashim/a-guide-to-japanese-books-for-rails-application-developers": {
+    "title": "Railsアプリケーション開発者のためのブックガイド",
+    "description": "Kaigi on Rails 2025で発表した際の発表資料を修正したものです。\r\n書影については各出版社サイトから取得していますが、一部の解像度が低いものについては個人所有の書籍のスキャンを使用しています（そのためきれいではないものがあります）。ご了承ください。\r\n検討時点でのリストは以下にあります（&hellip;",
+    "image": "https://files.speakerdeck.com/presentations/03ce1e29013545a3aa18e868744ae0a3/slide_0.jpg?36741548",
+    "siteName": "Speaker Deck"
+  },
+  "https://speakerdeck.com/yuhisatoxxx/jie-ceng-gou-zao-wobiao-xian-surudetagou-zao-torihuakutaringu-1nian-de10bei-cheng-chang-sitapurodakutonobian-hua-toke-ti": {
+    "title": "階層構造を表現するデータ構造とリファクタリング 〜1年で10倍成長したプロダクトの変化と課題〜",
+    "description": "Kaigi on Rails 2025 資料です。\r\nhttps://kaigionrails.org/2025/talks/Yuhi-Sato/#day2",
+    "image": "https://files.speakerdeck.com/presentations/57b124cc4a2a4802ba6f1fae1c631652/slide_0.jpg?36739192",
+    "siteName": "Speaker Deck"
+  },
+  "https://typescriptbook.jp/reference/values-types-variables/primitive-types": {
+    "title": "プリミティブ型 (primitive types) | TypeScript入門『サバイバルTypeScript』",
+    "description": "JavaScriptのデータ型は、プリミティブ型とオブジェクトの2つに分類されます。",
+    "image": "https://tsbook-og-image.vercel.app/%E3%83%97%E3%83%AA%E3%83%9F%E3%83%86%E3%82%A3%E3%83%96%E5%9E%8B%20(primitive%20types).png?pattern=cross&md=0&fontSize=75px&textColor=%23ffffff&textStrongColor=%238340BB&overlay=https%3A%2F%2Fraw.githubusercontent.com%2Fyytypescript%2Fog-image%2Fmain%2Fpublic%2Fogp-overlay.svg"
+  },
+  "https://user-first.ikyu.co.jp/entry/history-table": {
+    "title": "履歴テーブルについて - 一休.com Developers Blog",
+    "description": "この記事は一休.com アドベントカレンダーの25日目の記事です。 レストラン事業部エンジニアのid:ninjinkunです。 一休.com及び一休.comレストランはユーザー向けのシステムだけではなく、店舗や一休内の管理者向けの業務システムという性格も持っています。 業務システム経験の無かった自分が一休に転職して最初に驚いたのが、DBに履歴を保持するための履歴テーブルが大量にあることでした。 そこから履歴テーブルの存在に興味と疑問を持ち、社内外のエンジニアと履歴テーブルについて議論してきました。このエントリではそれらの議論をまとめた結果について書いていきます。 履歴テーブルのパターン まず以…",
+    "image": "https://cdn.image.st-hatena.com/image/scale/d2a74abe95c14ee010184ad0c2c77c4a85d24ad1/backend=imagemagick;version=1;width=1300/https%3A%2F%2Fcdn-ak.f.st-hatena.com%2Fimages%2Ffotolife%2Fn%2Fninjinkun%2F20181225%2F20181225101644.png",
+    "siteName": "一休.com Developers Blog"
+  },
+  "https://www.mmtk.io/": {
+    "title": "Memory Management Toolkit",
+    "description": "The web page of the Memory Management Toolkit, MMTk.",
+    "image": "https://www.mmtk.io/assets/images/mmtk-black-rust-trans-banner-2000x320.png",
+    "siteName": "Memory Management Toolkit"
+  },
+  "https://www.postgresql.org/docs/current/rangetypes.html#RANGETYPES": {
+    "title": "8.17. Range Types",
+    "description": "8.17.&nbsp;Range Types # 8.17.1. Built-in Range and Multirange Types 8.17.2. Examples 8.17.3. Inclusive and Exclusive Bounds 8.17.4. Infinite (Unbounded) Ranges …",
+    "image": "https://www.postgresql.org/media/img/about/press/elephant.png",
+    "siteName": "PostgreSQL Documentation"
+  },
+  "https://www.postgresql.org/docs/current/rangetypes.html#RANGETYPES-CONSTRAINT": {
+    "title": "8.17. Range Types",
+    "description": "8.17.&nbsp;Range Types # 8.17.1. Built-in Range and Multirange Types 8.17.2. Examples 8.17.3. Inclusive and Exclusive Bounds 8.17.4. Infinite (Unbounded) Ranges …",
+    "image": "https://www.postgresql.org/media/img/about/press/elephant.png",
+    "siteName": "PostgreSQL Documentation"
+  },
+  "https://www.typescriptlang.org/docs/handbook/release-notes/typescript-2-8.html#improved-control-over-mapped-type-modifiers": {
+    "title": "Documentation - TypeScript 2.8",
+    "description": "TypeScript 2.8 Release Notes"
+  },
+  "https://www.typescriptlang.org/docs/handbook/release-notes/typescript-2-8.html#type-inference-in-conditional-types": {
+    "title": "Documentation - TypeScript 2.8",
+    "description": "TypeScript 2.8 Release Notes"
+  }
+}

@@ -1,0 +1,130 @@
+:root { --fg:#1f2328; --muted:#656d76; --bg:#fff; --accent:#0969da; --code:#f6f8fa; --border:#d1d9e0; }
+@media (prefers-color-scheme: dark) {
+  :root { --fg:#e6edf3; --muted:#8d96a0; --bg:#0d1117; --accent:#4493f8; --code:#161b22; --border:#3d444d; }
+}
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust:100%; text-size-adjust:100%; }
+body { margin:0 auto; max-width:720px; padding:0 16px; font:16px/1.8 system-ui,-apple-system,"Hiragino Sans","Noto Sans JP",sans-serif; color:var(--fg); background:var(--bg); }
+a { color:var(--accent); }
+/* ヘッダーとナビ */
+.site-header { display:flex; flex-wrap:wrap; align-items:baseline; justify-content:space-between; gap:8px 24px; padding:32px 0 16px; border-bottom:1px solid var(--border); }
+.site-title { font-weight:700; font-size:1.3rem; color:var(--fg); text-decoration:none; }
+.site-nav { display:flex; flex-wrap:wrap; gap:4px 20px; }
+.site-nav a { color:var(--muted); text-decoration:none; font-weight:500; }
+.site-nav a:hover { color:var(--fg); }
+.site-nav a[aria-current="page"] { color:var(--fg); text-decoration:underline; text-underline-offset:6px; text-decoration-thickness:2px; }
+main { padding:24px 0 48px; overflow-wrap:anywhere; } /* 長い URL や英単語で横にはみ出さない */
+footer { padding:24px 0; color:var(--muted); font-size:.85rem; }
+time { color:var(--muted); font-size:.9rem; }
+.post-list { list-style:none; padding:0; }
+.post-list li { margin-bottom:24px; }
+.post-list a { display:block; font-size:1.15rem; font-weight:600; }
+.post-list p { margin:4px 0 0; color:var(--muted); }
+article h1 { margin-bottom:0; line-height:1.4; }
+.page-title { margin:8px 0 24px; font-size:1.8rem; line-height:1.3; }
+
+/* トップ */
+.intro { margin:8px 0 8px; font-size:1.05rem; }
+.section-head { display:flex; align-items:baseline; justify-content:space-between; gap:16px; margin-top:40px; border-bottom:1px solid var(--border); }
+.section-head h2 { margin:0 0 4px; font-size:1.15rem; }
+.section-head a { font-size:.85rem; text-decoration:none; white-space:nowrap; }
+
+/* Notes（Zenn のスクラップ風） */
+.scrap-list { list-style:none; padding:0; margin:8px 0 0; }
+.scrap-row { padding:16px 0; border-bottom:1px solid var(--border); }
+.scrap-row-title { display:block; font-size:1.1rem; font-weight:600; line-height:1.5; color:var(--fg); text-decoration:none; }
+.scrap-row-title:hover { color:var(--accent); }
+.scrap-row-meta { display:flex; flex-wrap:wrap; align-items:center; gap:4px 14px; margin-top:6px; font-size:.82rem; color:var(--muted); }
+.scrap-row-meta time { font-size:inherit; }
+.badge { display:inline-block; padding:1px 10px; border-radius:999px; font-size:.75rem; font-weight:600; line-height:1.7; }
+.badge-open { color:#1a7f37; background:#dafbe1; }
+.badge-closed { color:var(--muted); background:var(--code); border:1px solid var(--border); }
+@media (prefers-color-scheme: dark) { .badge-open { color:#3fb950; background:rgba(46,160,67,.15); } }
+.scrap-title { margin:8px 0 0; font-size:1.7rem; line-height:1.4; }
+.scrap-comments { display:flex; flex-direction:column; gap:16px; margin-top:24px; }
+.scrap-comment { border:1px solid var(--border); border-radius:10px; padding:14px 18px; background:var(--bg); min-width:0; }
+.scrap-comment:target { border-color:var(--accent); box-shadow:0 0 0 2px color-mix(in srgb, var(--accent) 25%, transparent); }
+.scrap-comment-head { display:flex; align-items:center; gap:10px; font-size:.85rem; }
+.avatar { width:28px; height:28px; border-radius:50%; background:var(--code); }
+.author { font-weight:600; }
+.permalink { color:var(--muted); text-decoration:none; }
+.permalink:hover { text-decoration:underline; }
+.scrap-comment-body { margin-top:4px; }
+.scrap-comment-body > :first-child { margin-top:8px; }
+.scrap-comment-body > :last-child { margin-bottom:0; }
+.scrap-closed { margin-top:20px; padding:10px 16px; border-radius:8px; background:var(--code); color:var(--muted); font-size:.9rem; text-align:center; }
+.empty { color:var(--muted); padding:16px 0; }
+.back { margin-top:24px; }
+
+/* Slides */
+.slides { list-style:none; padding:0; margin:16px 0 0; display:grid; grid-template-columns:repeat(auto-fill, minmax(min(100%, 300px), 1fr)); gap:24px; }
+.slide { display:flex; flex-direction:column; gap:8px; }
+.slide-thumb { display:block; width:100%; aspect-ratio:16/9; object-fit:cover; border:1px solid var(--border); border-radius:8px; background:var(--code); }
+.slide-thumb-empty { display:flex; align-items:center; justify-content:center; padding:16px; text-align:center; color:var(--muted); font-weight:600; }
+.slide-title { margin:0; font-size:1rem; line-height:1.5; }
+.slide-title a { color:var(--fg); text-decoration:none; }
+.slide-title a:hover { text-decoration:underline; }
+.slide-meta, .slide-links { margin:0; font-size:.85rem; color:var(--muted); }
+.slide-links a { margin-right:12px; }
+
+/* Profile */
+.profile h2 { margin-top:36px; font-size:1.2rem; border-bottom:1px solid var(--border); padding-bottom:4px; }
+.profile h2:first-child { margin-top:0; border:none; font-size:1.5rem; }
+.profile ul { padding-left:1.2em; }
+.profile li { margin:4px 0; }
+pre:not(.shiki) { background:var(--code); padding:16px; overflow-x:auto; border-radius:6px; }
+code { font-family:ui-monospace,SFMono-Regular,Menlo,monospace; font-size:.9em; }
+:not(pre) > code { background:var(--code); padding:.15em .35em; border-radius:4px; }
+img { max-width:100%; height:auto; }
+
+/* 表: 幅が足りないときは表だけ横スクロール */
+table { display:block; max-width:100%; overflow-x:auto; border-collapse:collapse; margin:1.2em 0; font-size:.92rem; overflow-wrap:normal; }
+th, td { border:1px solid var(--border); padding:6px 12px; text-align:left; vertical-align:top; }
+th { background:var(--code); font-weight:600; white-space:nowrap; }
+blockquote { margin:0; padding-left:16px; border-left:4px solid var(--code); color:var(--muted); }
+
+/* リンクカード */
+.link-card { display:flex; gap:16px; margin:1.2em 0; border:1px solid var(--border); border-radius:8px; overflow:hidden; text-decoration:none; color:var(--fg); transition:background .15s; }
+.link-card:hover { background:var(--code); }
+.lc-body { flex:1; min-width:0; padding:12px 16px; display:flex; flex-direction:column; gap:4px; }
+.lc-title { overflow-wrap:anywhere; font-weight:600; line-height:1.5; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden; }
+.lc-desc { color:var(--muted); font-size:.85rem; line-height:1.5; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden; }
+.lc-host { color:var(--muted); font-size:.8rem; margin-top:auto; }
+.lc-image { width:200px; max-width:35%; aspect-ratio:1.91/1; object-fit:cover; flex-shrink:0; }
+@media (max-width:480px) { .lc-image { width:110px; aspect-ratio:1; } .lc-desc { display:none; } }
+
+/* X の埋め込み（widgets.js 読み込み前・ブロック時の見た目） */
+blockquote.twitter-tweet { border:1px solid var(--border); border-left:4px solid var(--accent); border-radius:8px; padding:12px 16px; margin:1.2em 0; }
+
+/* コードブロック（Shiki: ライト/ダーク両テーマを CSS 変数で切り替え） */
+.code-block { margin:1.2em 0; border:1px solid var(--border); border-radius:8px; overflow:hidden; background:var(--code); }
+/* 言語名はコードに重ならないよう上部の帯に表示 */
+.code-block[data-lang]::before { content:attr(data-lang); display:block; padding:6px 14px; font-size:.72rem; line-height:1.4; color:var(--muted); font-family:ui-monospace,monospace; border-bottom:1px solid var(--border); }
+/* 長い行はブロックの中だけ横スクロール */
+.shiki { margin:0; padding:14px 0; line-height:1.6; overflow-x:auto; background:var(--code) !important; }
+.shiki span { color:var(--shiki-light); }
+@media (prefers-color-scheme: dark) {
+  .shiki span { color:var(--shiki-dark); }
+}
+.shiki code { counter-reset:line; display:block; min-width:max-content; padding-right:16px; }
+.shiki .line::before {
+  counter-increment:line; content:counter(line);
+  display:inline-block; width:2.5em; margin-right:1em; padding-right:.5em;
+  text-align:right; color:var(--muted); opacity:.6;
+  border-right:1px solid var(--border); user-select:none; background:transparent;
+}
+.shiki .line { display:inline-block; width:100%; }
+
+/* スマホ */
+@media (max-width:480px) {
+  body { font-size:15.5px; }
+  .site-header { padding-top:20px; }
+  .page-title, .scrap-title { font-size:1.5rem; }
+  article h1 { font-size:1.6rem; }
+  h2 { font-size:1.3rem; }
+  h3 { font-size:1.12rem; }
+  .scrap-comment { padding:12px 14px; }
+  .shiki { font-size:.85em; }
+  .shiki .line::before { width:2em; margin-right:.75em; }
+  blockquote { padding-left:12px; }
+}

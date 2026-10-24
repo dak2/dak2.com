@@ -1,0 +1,24 @@
+{
+  "name": "dak2-blog",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/fetch-ogp.mjs && vite dev",
+    "build": "node scripts/fetch-ogp.mjs && vite build",
+    "preview": "npm run build && vite preview",
+    "deploy": "void deploy --platform cloudflare",
+    "ogp": "node scripts/fetch-ogp.mjs",
+    "ogp:refresh": "node scripts/fetch-ogp.mjs --refresh"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.5",
+    "marked": "^18.1.1",
+    "shiki": "^4.5.0",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.4",
+    "void": "^1.2.1"
+  },
+  "engines": {
+    "node": ">=24.21.0"
+  }
+}
