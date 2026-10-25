@@ -1,0 +1,52 @@
+name: Auto-merge Notes
+
+on:
+  schedule:
+    - cron: "0 22 * * *"
+  workflow_dispatch:
+
+concurrency:
+  group: auto-merge-notes
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  pull-requests: write
+  actions: write
+
+jobs:
+  merge:
+    runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ github.token }}
+      REPO: ${{ github.repository }}
+      OWNER: ${{ github.repository_owner }}
+    steps:
+      - name: Merge open PRs labeled Notes
+        run: |
+          set -euo pipefail
+          merged=0
+
+          prs=$(gh pr list --repo "$REPO" --state open --label Notes \
+            --json number,author,isDraft \
+            --jq ".[] | select(.author.login == \"$OWNER\" and (.isDraft | not)) | .number")
+
+          for n in $prs; do
+            others=$(gh pr diff "$n" --repo "$REPO" --name-only | grep -v '^content/notes/' || true)
+            if [ -n "$others" ]; then
+              echo "::warning::#$n touches files outside content/notes/, skipped:"
+              echo "$others"
+              continue
+            fi
+
+            if gh pr merge "$n" --repo "$REPO" --squash --delete-branch; then
+              echo "Merged #$n"
+              merged=1
+            else
+              echo "::warning::Failed to merge #$n (conflict?)"
+            fi
+          done
+
+          if [ "$merged" = 1 ]; then
+            gh workflow run void-deploy.yml --repo "$REPO" --ref main
+          fi
