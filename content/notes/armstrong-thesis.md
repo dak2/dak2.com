@@ -1,6 +1,6 @@
 ---
 title: Joe Armstrong の博士論文をサラッと読んだ
-closed: false
+closed: true
 ---
 
 @2026-10-25 23:30
