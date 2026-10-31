@@ -32,18 +32,17 @@ const AUTHOR = { name: "dak2", avatar: "https://github.com/dak2.png?size=80" };
 
 const empty = (msg: string) => `<p class="empty">${msg}</p>`;
 
-function postList(items: Entry[]) {
-  if (!items.length) return empty("まだ記事はありません。");
-  return `<ul class="post-list">${items
-    .map(
-      (p) => `<li>
-  <time>${esc(p.date)}</time>
-  <a href="/posts/${p.slug}">${esc(p.title)}</a>
-  ${p.description ? `<p>${esc(p.description)}</p>` : ""}
-</li>`,
-    )
-    .join("\n")}</ul>`;
+function postRow(p: Entry) {
+  return `<li class="scrap-row">
+  <a class="scrap-row-title" href="/posts/${p.slug}">${esc(p.title)}</a>
+  <div class="scrap-row-meta">
+    <time>${esc(p.date)}</time>
+  </div>
+</li>`;
 }
+
+const postIndexList = (items: Entry[]) =>
+  items.length ? `<ul class="scrap-list">${items.map(postRow).join("")}</ul>` : empty("まだ記事はありません。");
 
 // Notes（スクラップ）の一覧行: タイトル・コメント数・更新日・状態
 function noteRow(n: Note) {
@@ -79,7 +78,6 @@ function slideCard(s: Slide) {
     ? `<img class="slide-thumb" src="${esc(image)}" alt="" loading="lazy" decoding="async">`
     : `<div class="slide-thumb slide-thumb-empty" aria-hidden="true">${esc(s.event || "Slides")}</div>`;
   const links = [
-    s.url ? `<a href="${esc(s.url)}" target="_blank" rel="noopener">スライド</a>` : "",
     s.video ? `<a href="${esc(s.video)}" target="_blank" rel="noopener">動画</a>` : "",
   ].filter(Boolean);
   const title = s.url
@@ -105,7 +103,7 @@ export function homePage(origin: string) {
 <section class="intro">
   <p>${esc(SITE_DESCRIPTION)}</p>
 </section>
-${posts.length ? `<section>${sectionHead("Posts", "/posts")}${postList(posts.slice(0, 3))}</section>` : ""}
+${posts.length ? `<section>${sectionHead("Posts", "/posts")}${postIndexList(posts.slice(0, 3))}</section>` : ""}
 ${notes.length ? `<section>${sectionHead("Notes", "/notes")}${noteList(notes.slice(0, 5))}</section>` : ""}
 ${slides.length ? `<section>${sectionHead("Slides", "/slides")}<ul class="slides">${slides.slice(0, 2).map(slideCard).join("")}</ul></section>` : ""}`;
   return layout({ title: SITE_TITLE, description: SITE_DESCRIPTION, url: origin + "/", content });
@@ -127,7 +125,7 @@ export function postsIndexPage(origin: string) {
     description: "dak2 の記事一覧",
     url: origin + "/posts",
     section: "posts",
-    content: `<h1 class="page-title">Posts</h1>${postList(posts)}`,
+    content: `<h1 class="page-title">Posts</h1>${postIndexList(posts)}`,
   });
 }
 
